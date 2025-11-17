@@ -1,152 +1,91 @@
-📚 LibBot — Smart Library Assistant System (TurtleBot3 Burger)
-
-An autonomous library assistant robot designed to guide users to bookshelves, detect misplaced books, and identify rubbish using ROS Noetic, YOLOv8, SLAM, and a custom Tkinter GUI interface.
-
-🚀 Features
-🔍 Book Search & Navigation
-
-Search by book title or call number
-
-Filtered book results shown in interactive GUI cards
-
-Navigation to the correct bookshelf zone using move_base
-
-Automatic re-planning when obstacles are detected
-
-🤖 Visual Detection Module
-
-YOLOv8-based object detection supporting:
-
-10 specific UTeM book covers
-
-Unified “rubbish” class (battery, cardboard, paper, plastic, etc.)
-
-Confidence filtering (≥ 60%)
-
-False-positive reduction using:
-
-IOU filtering
-
-5–10 second cooldown periods
-
-Reflection and noise suppression logic
-
-🧠 Autonomous Navigation Behaviour
-
-Dynamic obstacle avoidance
-
-Reverse-turn avoidance manoeuvre
-
-Goal re-sending and recovery behaviour
-
-Navigation phases: idle → to_shelf → to_rest
-
-🖥️ User Interface (Tkinter GUI)
-
-Book search & navigation panel
-
-Robot status display (navigation, avoidance, pause)
-
-Battery level indicator with low-battery lockout
-
-Real-time object detection notifications
-
-📁 Project Repository Structure
-LibBot/
-│
-├── Smart_Library.py          # Main GUI application
-├── ros_yolo_detection.py     # YOLOv8 ROS detection node
-├── book_locations.json       # Predefined coordinates for each book title
-├── laptop_startup.launch     # Launch file for laptop ROS nodes
-├── turtlebot_startup.launch  # Launch file for robot ROS nodes
-│
-├── /models                   # YOLOv8 weight files (not uploaded)
-├── /maps                     # SLAM map files
-└── /docs                     # Final report, diagrams, documentation
-
-📦 Dataset & Model
-🧱 Object Detection Models (Books & Rubbish)
-
-Kaggle Model Link:
-🔗 https://www.kaggle.com/models/ngjuncherng/libbot-object-detection
-
-Models include:
-
-10 specific UTeM library book covers
-
-1 unified class: rubbish
-
-Trained using YOLOv8s on 10,000+ mixed real + synthetic images
-
-🛠️ Installation & Setup
-1️⃣ Hardware Requirements
-
-TurtleBot3 Burger
-
-Fully charged battery (40–45 min runtime)
-
-Ubuntu 20.04 + ROS Noetic laptop
-
-Shared WiFi network (TurtleBot + Laptop must be on the same network)
-
-2️⃣ Connect to TurtleBot
-
-SSH into robot:
-
-ssh ubuntu@<turtlebot_ip>
-
-
-Start robot-side ROS nodes:
-
-roslaunch libbot turtlebot_startup.launch
-
-
-Start laptop-side ROS nodes:
-
-roslaunch libbot laptop_startup.launch
-
-🧭 Using LibBot
-
-Run Smart_Library.py
-
-Enter a book title or call number
-
-Select a result card
-
-Click Navigate
-
-The robot will autonomously move to the correct bookshelf zone
-
-🧹 Maintenance Guidelines
-
-Recharge or replace battery when indicator shows Low Battery
-
-Full charge time: ~2 hours
-
-Update:
-
-book_locations.json when new books are added
-
-YOLO models when adding new book covers or rubbish types
-
-If library layout changes:
-
-Remap using slam_toolbox and update /maps
-
-⚠️ Safety Instructions
-
-Operate only in supervised environments
-
-Avoid stairs, escalators, and wet floors
-
-Keep walkways clear during testing
-
-Do not block or force the robot
-
-Avoid standing directly in front of the robot (prevents detection confusion)
-
-👨‍💻 Developer
-
+# **LibBot – Smart Library Assistant System (TurtleBot3 Burger)**  
+AI-Powered Navigation & Object Detection for UTeM Library
+
+---
+
+## 📦 **Dataset**
+LibBot Object Detection Model (YOLOv8):  
+🔗 **https://www.kaggle.com/models/ngjuncherng/libbot-object-detection**
+
+---
+
+## 🚀 **Installation & Setup**
+
+### **1. Prepare Hardware**
+- Fully charge the **TurtleBot3 Burger**.
+- Place the robot at the **designated start location**  
+  (table area, 4th floor library zone).
+
+### **2. Connect to TurtleBot**
+On Ubuntu laptop:
+
+1. Ensure laptop WiFi is the **same network** as TurtleBot.
+2. Open terminal and connect via SSH:
+   ```bash
+   ssh ubuntu@<turtlebot_ip_address>
+
+### **3. Launch Robot Startup**
+After SSH login:
+```bash
+roslaunch <package_name> turtlebot_startup.launch
+```
+
+### **4. Launch Laptop-Side Nodes**
+Open another terminal on the laptop:
+```bash
+roslaunch <package_name> laptop_startup.launch
+```
+
+---
+
+## 📘 **Using LibBot**
+1. Open the LibBot GUI.
+2. Enter book title or call number in the search bar.
+3. Select a result from the automatically filtered list.
+4. Click Navigate, and LibBot will guide you to the correct bookshelf zone.
+
+---
+
+## 🛠 **Maintenance Guidelines**
+🔋 **Battery**
+- Replace or charge the battery when the GUI shows Low Battery.
+- Full charge time: ~2 hours
+- Operating time per charge: 40–45 minutes
+
+📚 **Data & Model Updates**
+- Update book_locations.json when adding new books.
+- Retrain or update YOLOv8 models if:
+  - New book covers are added
+  - New rubbish types need detection
+
+🗺 **Mapping**
+If the library layout changes:
+- Regenerate the SLAM map using slam_toolbox in mapping mode.
+- Save the new map for navigation.
+
+---
+
+## 🔐 **Safety Instructions**
+- Operate only in supervised environments.
+- Avoid risky locations such as stairs and escalators.
+- Keep walkways clear of liquids, cables, or obstacles.
+- Do not physically force the robot while it is moving.
+- Do not stand directly in front of the robot to avoid false detections.
+
+---
+
+## 🤖 **About LibBot**
+LibBot is an autonomous library assistant robot developed using:
+- TurtleBot3 Burger
+- ROS Noetic
+- YOLOv8 Object Detection
+- SLAM Toolbox
+- Python Tkinter GUI
+The system helps students locate books, identifies misplaced books and rubbish, and navigates safely within a library testbed environment.
+
+---
+
+## 👤 **Developer**
 Ng Jun Cherng
-Smart Library Assistant System (FYP 2024/2025)
-ROS Noetic · YOLOv8 · TurtleBot3 Burger · Python · Tkinter · SLAM
+
+UTeM Final Year Project – Smart Library Assistant System

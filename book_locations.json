@@ -1,0 +1,422 @@
+[
+  {
+    "title": "Handbook of Spin Transport and Magnetism",
+    "call_number": "TK7874 887 H36 2012",
+    "zone": "A",
+    "side": "Left",
+    "bay": 1,
+    "shelf": 3,
+    "coordinates": { "x": -0.44000011682510376, "y": 1.1799999475479126, "z": -0.10071002376476831, "w": 0.994915821119204 },
+    "image": "Book cover/edited/HSTM.PNG"
+  },
+  {
+    "title": "3D Integration for VLSI Systems",
+    "call_number": "TK7874 75 T47 2012",
+    "zone": "A",
+    "side": "Left",
+    "bay": 2,
+    "shelf": 1,
+    "coordinates": { "x": -0.3299996852874756, "y": 2.0299999713897705, "z": -0.06027523306081299, "w": 0.9981817952053947 },
+    "image": "Book cover/edited/3DVLSI.PNG"
+  },
+  {
+    "title": "Digital Design: Principles and Practices ",
+    "call_number": "TK7874 65 W34 2006",
+    "zone": "A",
+    "side": "Left",
+    "bay": 3,
+    "shelf": 1,
+    "coordinates": { "x": -0.2199997752904892, "y": 2.9700000286102295, "z": -0.07862730251176443, "w": 0.9969040812935432 },
+    "image": "Book cover/edited/DD.PNG"
+  },
+  {
+    "title": "Future Trends in Microelectronics",
+    "call_number": "TK7874 F87 1999",
+    "zone": "A",
+    "side": "Left",
+    "bay": 4,
+    "shelf": 5,
+    "coordinates": { "x": -0.1345684975385666, "y": 3.9473683834075928, "z": -0.05296733697949385, "w": 0.998596245343082 },
+    "image": "Book cover/edited/FTM.PNG"
+  },
+  {
+    "title": "Reuse in Electronic design from information modelling to intellectual properties",
+    "call_number": "TK7874 C66 1999",
+    "zone": "A",
+    "side": "Left",
+    "bay": 5,
+    "shelf": 2,
+    "coordinates": { "x": -0.059808213263750076, "y": 4.904305934906006, "z": -0.05967887633785755, "w": 0.9982176274335425 },
+    "image": "Book cover/edited/RED.PNG"
+  },
+  {
+    "title": "Frequency Stability introduction and applications",
+    "call_number": "TK7872 O7 K76 2012",
+    "zone": "A",
+    "side": "Left",
+    "bay": 6,
+    "shelf": 3,
+    "coordinates": { "x": 0.014952885918319225, "y": 5.75657844543457, "z": -0.042739485589434016, "w": 0.999086250716899 },
+    "image": "Book cover/edited/FS.PNG"
+  },
+  {
+    "title": "Wireless Sensor Network ",
+    "call_number": "TK7872 D48 S63 2007",
+    "zone": "A",
+    "side": "Left",
+    "bay": 7,
+    "shelf": 5,
+    "coordinates": { "x": -0.051242757588624954, "y": 6.497978210449219, "z": 0.006758105720108343, "w": 0.9999771637427906 },
+    "image": "Book cover/edited/WSN.PNG"
+  },
+  {
+    "title": "MEMS-Based Integrated Navigation",
+    "call_number": "TK7875 M47 2010",
+    "zone": "A",
+    "side": "Right",
+    "bay": 1,
+    "shelf": 4,
+    "coordinates": { "x": 0.7019039988517761, "y": 0.973969578742981, "z": 0.9936561207021749, "w": 0.11246116570223183 },
+    "image": "Book cover/edited/MEMSIN.PNG"
+  },
+  {
+    "title": "Microwave Circuit Design using Linear and Nonlinear Techniques",
+    "call_number": "TK7876 V46 2005",
+    "zone": "A",
+    "side": "Right",
+    "bay": 2,
+    "shelf": 1,
+    "coordinates": { "x": 0.7350679636001587, "y": 1.8854304552078247, "z": 0.9996608471107062, "w": 0.026042095804776066 },
+    "image": "Book cover/edited/MCD.PNG"
+  },
+  {
+    "title": "Grounding and Shielding Techniques",
+    "call_number": "TK7878 4 M67 1998",
+    "zone": "A",
+    "side": "Right",
+    "bay": 3,
+    "shelf": 4,
+    "coordinates": { "x": 0.7887440919876099, "y": 2.5842254161834717, "z": 0.9989816005672941, "w": 0.04511941630836119 },
+    "image": "Book cover/edited/GST.PNG"
+  },
+  {
+    "title": "Power Electronics",
+    "call_number": "TK7881 15 T74 2008",
+    "zone": "A",
+    "side": "Right",
+    "bay": 4,
+    "shelf": 2,
+    "coordinates": { "x": 0.8703794479370117, "y": 3.492687702178955, "z": 0.997463714663556, "w": 0.07117680752590748 },
+    "image": "Book cover/edited/PE.PNG"
+  },
+  {
+    "title": "Guide To Biometrics",
+    "call_number": "TK7882 B56 G84 2004",
+    "zone": "A",
+    "side": "Right",
+    "bay": 5,
+    "shelf": 3,
+    "coordinates": { "x": 1.0096971988677979, "y": 4.493795394897461, "z": 0.9940250144955567, "w": 0.10915251053964954 },
+    "image": "Book cover/edited/GTB.PNG"
+  },
+  {
+    "title": "MATLAB Data Analysis and Visualization",
+    "call_number": "TK7882 I6 S52 2008",
+    "zone": "A",
+    "side": "Right",
+    "bay": 6,
+    "shelf": 1,
+    "coordinates": { "x": 1.1274335384368896, "y": 5.373589038848877, "z": 0.9925264848988337, "w": 0.12202940946495353 },
+    "image": "Book cover/edited/MDAV.PNG"
+  },
+  {
+    "title": "Digital Design and Fabrication",
+    "call_number": "TK7885 D53 2008",
+    "zone": "A",
+    "side": "Right",
+    "bay": 7,
+    "shelf": 5,
+    "coordinates": { "x": 1.250842571258545, "y": 6.406881332397461, "z": 0.9983722094052226, "w": 0.05703447630454906 },
+    "image": "Book cover/edited/DDF.PNG"
+  },
+  {
+    "title": "Auto Diagnosis Service, and Repair Shop Manual",
+    "call_number": "TL152 J63 2005",
+    "zone": "B",
+    "side": "Left",
+    "bay": 1,
+    "shelf": 5,
+    "coordinates": { "x": 1.3559643030166626, "y": 0.8742783069610596, "z": -0.10807503374968241, "w": 0.9941427397914271 },
+    "image": "Book cover/edited/ADSRSM.PNG"
+  },
+  {
+    "title": "Automotive Excellence",
+    "call_number": "TL152 A97 2001",
+    "zone": "B",
+    "side": "Left",
+    "bay": 2,
+    "shelf": 1,
+    "coordinates": { "x": 1.5815765857696533, "y": 1.8860119581222534, "z": -0.08894752470701253, "w": 0.9960363135189878 },
+    "image": "Book cover/edited/AE.PNG"
+  },
+  {
+    "title": "Optical System Design",
+    "call_number": "TK8315 F57 2008",
+    "zone": "B",
+    "side": "Left",
+    "bay": 3,
+    "shelf": 3,
+    "coordinates": { "x": 1.6385822296142578, "y": 2.821409225463867, "z": -0.02674016841277704, "w": 0.9996424177641005 },
+    "image": "Book cover/edited/OSD.PNG"
+  },
+  {
+    "title": "Microprocessors",
+    "call_number": "TK7895 M5 R43 2005",
+    "zone": "B",
+    "side": "Left",
+    "bay": 4,
+    "shelf": 1,
+    "coordinates": { "x": 1.7780848741531372, "y": 3.7927088737487793, "z": -0.050712140119662734, "w": 0.9987133116387724 },
+    "image": "Book cover/edited/MicroP.PNG"
+  },
+  {
+    "title": "Computer System Design",
+    "call_number": "TK7895 E42 F59 2011",
+    "zone": "B",
+    "side": "Left",
+    "bay": 5,
+    "shelf": 4,
+    "coordinates": { "x": 1.9983642101287842, "y": 4.6558003425598145, "z": -0.07010544387868342, "w": 0.9975395865521192 },
+    "image": "Book cover/edited/CSD.PNG"
+  },
+  {
+    "title": "Embedded Software Design ",
+    "call_number": "TK7895 E42 B46 2023",
+    "zone": "B",
+    "side": "Left",
+    "bay": 6,
+    "shelf": 2,
+    "coordinates": { "x": 2.0644726753234863, "y": 5.408921718597412,  "z": -0.03118502747609898, "w": 0.9995136287521621 },
+    "image": "Book cover/edited/ESD.PNG"
+  },
+  {
+    "title": "PC Hardware Essentials",
+    "call_number": "TK7887 5 P64 2008",
+    "zone": "B",
+    "side": "Left",
+    "bay": 7,
+    "shelf": 3,
+    "coordinates": { "x": 2.2482008934020996, "y": 6.477572441101074, "z": -0.05462561052966616, "w": 0.9985069066732895 },
+    "image": "Book cover/edited/PHE.PNG"
+  },
+  {
+    "title": "Gasoline-Engine Manegement",
+    "call_number": "TL214 C64 G37 1999",
+    "zone": "B",
+    "side": "Right",
+    "bay": 1,
+    "shelf": 4,
+    "coordinates": { "x": 2.2356483936309814, "y": 0.653942346572876, "z": 0.9977220837444531, "w": 0.06745845839200922 },
+    "image": "Book cover/edited/GEM.PNG"
+  },
+  {
+    "title": "Auto Body Repair Technology",
+    "call_number": "TL255 D84 2004",
+    "zone": "B",
+    "side": "Right",
+    "bay": 2,
+    "shelf": 1,
+    "coordinates": { "x": 2.3389384746551514, "y": 1.2908753156661987, "z": 0.9970575902463263, "w": 0.07665612651438107 },
+    "image": "Book cover/edited/ABRT.PNG"
+  },
+  {
+    "title": "Manual Transmissions",
+    "call_number": "TL262 E75 2004",
+    "zone": "B",
+    "side": "Right",
+    "bay": 3,
+    "shelf": 3,
+    "coordinates": { "x": 2.516705274581909, "y": 2.2243452072143555, "z": 0.9978564234964704, "w": 0.06544125676385491 },
+    "image": "Book cover/edited/MT.PNG"
+  },
+  {
+    "title": "TOYOTA Production System",
+    "call_number": "TL278 M66 2012",
+    "zone": "B",
+    "side": "Right",
+    "bay": 4,
+    "shelf": 2,
+    "coordinates": { "x": 2.643170118331909, "y": 3.1816742420196533, "z": 0.9993788284462627, "w": 0.035241413895804215 },
+    "image": "Book cover/edited/TPS.PNG"
+  },
+  {
+    "title": "Electric Motorcycle",
+    "call_number": "TL448 E44 V63 2009",
+    "zone": "B",
+    "side": "Right",
+    "bay": 5,
+    "shelf": 5,
+    "coordinates": { "x": 2.7729766368865967, "y": 4.122051239013672, "z": 0.998018794774726, "w": 0.06291649447007745 },
+    "image": "Book cover/edited/EM.PNG"
+  },
+  {
+    "title": "Tethered Space Robot",
+    "call_number": "TL1097 H82 2018",
+    "zone": "B",
+    "side": "Right",
+    "bay": 6,
+    "shelf": 1,
+    "coordinates": { "x": 2.907642364501953, "y": 5.081088066101074, "z": 0.9990385119479648, "w": 0.04384120943582997 },
+    "image": "Book cover/edited/TSR.PNG"
+  },
+  {
+    "title": "Mechanical Alloying and Milling ",
+    "call_number": "TN698 S97 2004",
+    "zone": "B",
+    "side": "Right",
+    "bay": 7,
+    "shelf": 2,
+    "coordinates": { "x": 3.0680973529815674, "y": 5.969650745391846, "z": 0.9992259594178634, "w": 0.0393380480635524 },
+    "image": "Book cover/edited/MAM.PNG"
+  },
+  {
+    "title": "Plastic Forming Processes",
+    "call_number": "TP1150 R49 2008",
+    "zone": "C",
+    "side": "Left",
+    "bay": 1,
+    "shelf": 2,
+    "coordinates": { "x": 2.9200000762939453, "y": 0.819999635219574, "z": 0.0, "w": 1.0 },
+    "image": "Book cover/edited/PEP.PNG"
+  },
+  {
+    "title": "Fundamentals of Pressure Sensitivity",
+    "call_number": "TP971 H36 2009",
+    "zone": "C",
+    "side": "Left",
+    "bay": 2,
+    "shelf": 3,
+    "coordinates": { "x": 3.1700003147125244, "y": 1.7899998426437378, "z": 0.0, "w": 1.0 },
+    "image": "Book cover/edited/FPS.PNG"
+  },
+  {
+    "title": "Food Plant Engineering Systems",
+    "call_number": "TP373 R62 2013",
+    "zone": "C",
+    "side": "Left",
+    "bay": 3,
+    "shelf": 5,
+    "coordinates": { "x": 3.3703508377075195, "y": 2.6213836669921875, "z": 0.0, "w": 1.0 },
+    "image": "Book cover/edited/FPES.PNG"
+  },
+  {
+    "title": "Fundamental Biomaterials: Polymers",
+    "call_number": "TP248 65 F86 2018",
+    "zone": "C",
+    "side": "Left",
+    "bay": 4,
+    "shelf": 4,
+    "coordinates": { "x": 3.5382232666015625, "y": 3.5253093242645264, "z": 0.0, "w": 1.0 },
+    "image": "Book cover/edited/FBP.PNG"
+  },
+  {
+    "title": "Materials for the Hydrogen Economy",
+    "call_number": "TP245 H9 M37 2008",
+    "zone": "C",
+    "side": "Left",
+    "bay": 5,
+    "shelf": 1,
+    "coordinates": { "x": 3.676478862762451, "y": 4.3979949951171875, "z": 0.0, "w": 1.0 },
+    "image": "Book cover/edited/MHE.PNG"
+  },
+  {
+    "title": "Process Dynamics and Control ",
+    "call_number": "TP155 75 S42 2011",
+    "zone": "C",
+    "side": "Left",
+    "bay": 6,
+    "shelf": 2,
+    "coordinates": { "x": 3.8667898178100586, "y": 5.3125410079956055, "z": 0.0, "w": 1.0 },
+    "image": "Book cover/edited/PDC.PNG"
+  },
+  {
+    "title": "Industrial Chemistry",
+    "call_number": "TP145 I52 2012",
+    "zone": "C",
+    "side": "Left",
+    "bay": 7,
+    "shelf": 4,
+    "coordinates": { "x": 4.048192977905273, "y": 6.056578636169434, "z": 0.0, "w": 1.0 },
+    "image": "Book cover/edited/IC.PNG"
+  },
+  {
+    "title": "Adobe Photoshop Elements",
+    "call_number": "TR267 K47 2006",
+    "zone": "C",
+    "side": "Right",
+    "bay": 1,
+    "shelf": 1,
+    "coordinates": { "x": 4.0412702560424805, "y": 0.19097863137722015, "z": 0.9934099767445592, "w": 0.11461508672236054 },
+    "image": "Book cover/edited/APE.PNG"
+  },
+  {
+    "title": "Adobe Photoshop CS4",
+    "call_number": "TR267 P84 2008",
+    "zone": "C",
+    "side": "Right",
+    "bay": 2,
+    "shelf": 5,
+    "coordinates": { "x": 4.230319023132324, "y": 1.1898221969604492, "z": 0.9980927567858241, "w": 0.06173207311984344 },
+    "image": "Book cover/edited/APCS.PNG"
+  },
+  {
+    "title": "Body Language advanced 3D character rigging ",
+    "call_number": "TR897 7 A44 2008",
+    "zone": "C",
+    "side": "Right",
+    "bay": 3,
+    "shelf": 2,
+    "coordinates": { "x": 4.320582389831543, "y": 2.0513417720794678, "z": 0.9949412163565134, "w": 0.1004588273623652 },
+    "image": "Book cover/edited/BL.PNG"
+  },
+  {
+    "title": "Adobe LiveMotion visual insight",
+    "call_number": "TR897 7 J67 2001",
+    "zone": "C",
+    "side": "Right",
+    "bay": 4,
+    "shelf": 3,
+    "coordinates": { "x": 4.371612071990967, "y": 3.080495834350586, "z": 0.9971455184276745, "w": 0.07550374215629438 },
+    "image": "Book cover/edited/ALM.PNG"
+  },
+  {
+    "title": "Digital Character Development theory and practice",
+    "call_number": "TR897 7 O53 2016",
+    "zone": "C",
+    "side": "Right",
+    "bay": 5,
+    "shelf": 4,
+    "coordinates": { "x": 4.50814962387085, "y": 4.009240627288818, "z": 0.9971866289714358, "w": 0.07495883537371664 },
+    "image": "Book cover/edited/DCD.PNG"
+  },
+  {
+    "title": "Adobe Premiere Pro complete course",
+    "call_number": "TR899 B35 2004",
+    "zone": "C",
+    "side": "Right",
+    "bay": 6,
+    "shelf": 4,
+    "coordinates": { "x": 4.630017280578613, "y": 4.7445807456970215, "z": 0.9950221930326277, "w": 0.09965357681759424 },
+    "image": "Book cover/edited/APP.PNG"
+  },
+  {
+    "title": "Lean Production for Competitive Advantage",
+    "call_number": "TS155 N53 2011",
+    "zone": "C",
+    "side": "Right",
+    "bay": 7,
+    "shelf": 1,
+    "coordinates": { "x": 4.8814849853515625, "y": 5.574368476867676, "z": 0.9833719726380846, "w": 0.1816027627264577 },
+    "image": "Book cover/edited/LPCA.PNG"
+  }
+]

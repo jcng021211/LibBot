@@ -1,6 +1,9 @@
 # **LibBot – Smart Library Assistant System (TurtleBot3 Burger)**  
 AI-Powered Navigation & Object Detection for UTeM Library
 
+Demo Video:  
+**https://drive.google.com/drive/folders/1eP3tycHQVQlP2pS14ALkA_i3lBY_dzbg?usp=sharing**
+
 ---
 
 ## 📦 **Dataset**

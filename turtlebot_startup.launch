@@ -1,0 +1,10 @@
+<launch>
+    <!-- Camera -->
+    <include file="$(find raspicam_node)/launch/camerav2_1280x960.launch" />
+
+    <!-- TurtleBot bringup -->
+    <include file="$(find turtlebot3_bringup)/launch/turtlebot3_robot.launch" />
+
+    <!-- Sound system -->
+    <node pkg="sound_play" type="soundplay_node.py" name="sound_play" output="screen" />
+</launch>

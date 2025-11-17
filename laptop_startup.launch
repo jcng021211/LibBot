@@ -1,0 +1,12 @@
+<launch>
+    <!-- Navigation with map -->
+    <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch">
+        <arg name="map_file" value="/home/jcng/map_library_edited.yaml" />
+    </include>
+
+    <!-- YOLO detection -->
+    <node pkg="beginner_tutorials" type="ros_yolo_detection.py" name="yolo_detection" output="screen" />
+
+    <!-- Smart Library UI -->
+    <node pkg="beginner_tutorials" type="Smart_Library.py" name="smart_library_ui" output="screen" />
+</launch>
